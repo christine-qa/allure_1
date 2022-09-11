@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: Mesto1Test
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 62.585 s <<< FAILURE! - in Mesto1Test
+likeTheFirstPhoto(Mesto1Test)  Time elapsed: 56.466 s  <<< ERROR!
+java.lang.IllegalArgumentException: Cannot invoke method getAt() on null object
+	at Mesto1Test.getTheFirstPhotoId(Mesto1Test.java:48)
+	at Mesto1Test.likeTheFirstPhoto(Mesto1Test.java:36)
+Caused by: java.lang.NullPointerException: Cannot invoke method getAt() on null object
+	at Mesto1Test.getTheFirstPhotoId(Mesto1Test.java:48)
+	at Mesto1Test.likeTheFirstPhoto(Mesto1Test.java:36)
+
+addNewPhoto(Mesto1Test)  Time elapsed: 3.646 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at Mesto1Test.addNewPhoto(Mesto1Test.java:29)
+
